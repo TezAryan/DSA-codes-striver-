@@ -18,11 +18,10 @@
        } else {
         low = mid+1;
        
-       } 
+       }
         
     }
     
     return ans;
     
     }
-};
