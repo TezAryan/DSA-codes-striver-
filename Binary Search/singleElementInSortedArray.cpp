@@ -60,3 +60,9 @@ int main() {
 
     return 0;
 }
+
+// int main() {
+//     vector<int> arr;
+// int n,num;
+// cout<<"enter the number of elements:";
+// cin>>n;
