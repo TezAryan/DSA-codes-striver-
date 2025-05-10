@@ -50,3 +50,4 @@ int main() {
          << sol.shipWithinDays(weights, days) << endl;
     return 0;
 }
+
