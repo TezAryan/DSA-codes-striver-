@@ -1,23 +1,21 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std ; 
+y
+void fun(int num){
+    if(num == 4){
+        return; 
+    }
 
-// int count = 0;
+    cout<<num <<endl ;
+    fun(num + 1) ;
+}
 
-//  void function() {
-    
-//     if(count == 4) {
-//         return ;
-//         }
-//     cout<<count << endl;
-//     count++;
-   
-//     function();
-//  } 
+int main(){
 
-// int main() {
-//     function();
-// return  0; 
-// }
+    fun(0);
+
+    return 0 ;
+}
 
 ////////print name using resursion//////////
 
@@ -102,34 +100,34 @@ using namespace std;
 
 ////////////////parameterised  recursion//////////////
 
-// void ParameterisedFunction(int i , int sum){
+// void Parameterisedf(int i , int sum){
 //     if(i<1) {
 //         cout<<sum;
 //         return;
 //     }
 
-//     ParameterisedFunction(i-1 , sum + i);
+//     Parameterisedf(i-1 , sum + i);
 // }
 // int main() {
 //     int n;
 //     cin>>n;
-//    ParameterisedFunction(n , 0);
+//    Parameterisedf(n , 0);
 
 // }
 
-// //////////////////////functional recursion//////////////
+// //////////////////////fal recursion//////////////
 
-// int FunctionalRecursion(int n) {
-//     if(n==0) {                     //here you want the function to return something not the parameter to return
+// int falRecursion(int n) {
+//     if(n==0) {                     //here you want the f to return something not the parameter to return
 //                                    // something that is called funcctional recursion.
 //         return 0;
 
 //     }
-//      return n + FunctionalRecursion(n-1);
+//      return n + falRecursion(n-1);
 // }
 // int main() {
 //     int n = 5;
-//     cout<< FunctionalRecursion(n)<< endl;
+//     cout<< falRecursion(n)<< endl;
 //     return 0;
 // }
    
@@ -166,19 +164,19 @@ using namespace std;
 
 //////////////////////////////////////////////
 
- bool palindrome(int i , string &s) {
-   if(i >= s.size() /2) return true;
-   if(s[i] != s[s.size() - i -1]) 
-   return false;
-   return palindrome(i+1 , s);
+//  bool palindrome(int i , string &s) {
+//    if(i >= s.size() /2) return true;
+//    if(s[i] != s[s.size() - i -1]) 
+//    return false;
+//    return palindrome(i+1 , s);
 
 
- }
+//  }
 
- int main() {
-   string s = "MADeM";
-   cout<<palindrome(0 , s);
-   return 0;
+//  int main() {
+//    string s = "MADeM";
+//    cout<<palindrome(0 , s);
+//    return 0;
    
- }
+//  }
 
