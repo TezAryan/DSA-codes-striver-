@@ -21,5 +21,5 @@ vector<int> preorderTraversal(TreeNode* root) {
     result.push_back(root->val);
 
     vector<int> left = preorderTraversal(root->left);
-    vector<int> right = 
+    vector<int> right = preorderTraversal(root->right);
 }
